@@ -2,6 +2,9 @@
   "name": "astro-anyaran",
   "type": "module",
   "version": "0.0.1",
+  "browerslist":[
+    "defaults"
+  ],
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -9,6 +12,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.7.10"
+    "astro": "^5.7.10",
+    "postcss": "^8.5.3",
+    "postcss-preset-env": "^10.1.6"
   }
 }

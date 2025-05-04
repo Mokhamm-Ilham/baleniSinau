@@ -15,7 +15,9 @@ const {title="My Astro Blog", description="Lorem ipsum dolor sit amet"} = Astro.
   <MainHead {title} {description}/>
 	<body>
     <Nav/>
-    <slot>default text</slot>
+    <main>
+      <slot>default text</slot>
+    </main>
     <Footer/>
   </body>
 </html>

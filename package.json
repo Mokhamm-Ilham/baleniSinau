@@ -1,21 +1,25 @@
 {
-  "name": "astro-anyaran",
+  "name": "@example/minimal",
   "type": "module",
   "version": "0.0.1",
-  "browerslist": [
+  "private": true,
+  "browserslist": [
     "defaults"
   ],
   "scripts": {
     "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.2.6",
-    "astro": "^5.7.10",
-    "astro-icon": "^1.1.5",
+    "@astrojs/image": "^0.12.1",
+    "astro": "^1.9.2",
+    "astro-icon": "^0.8.2",
+    "node-modules": "^1.0.1",
     "postcss": "^8.5.3",
-    "postcss-preset-env": "^10.1.6"
+    "postcss-preset-env": "^7.8.3",
+    "sharp": "^0.31.3"
   }
 }
